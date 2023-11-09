@@ -1,0 +1,12 @@
+{
+  "name": "calance-project",
+  "version": "1.0.0",
+  "description": "Create a small program that uses the GitHub API to pull information from the twbs/bootstrap repository and write it to a file.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
