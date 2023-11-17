@@ -21,8 +21,7 @@ $.get(apiUrl).then((data) =>
     // template literal fills in the table body dynamically
   })
 )
-function tableToCSV() {
- 
+function tableToCSV() { 
     // Variable to store the final csv data
     var csv_data = [];
 
@@ -30,14 +29,14 @@ function tableToCSV() {
     var rows = document.getElementsByTagName('tr');
     for (var i = 0; i < rows.length; i++) {
 
-        // Get data from each column
+        // Gets data from each column
         var cols = rows[i].querySelectorAll('td,th');
 
         // Stores each csv row data
         var csvrow = [];
         for (var j = 0; j < cols.length; j++) {
 
-            // Get the text data of each cell of a row and push it to csvrow
+            // Gets the text data of each cell of a row and push it to csvrow
             csvrow.push(cols[j].innerHTML);
         }
 

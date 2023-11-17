@@ -1,8 +1,1 @@
-Create a small program that uses the GitHub API to pull information from the twbs/bootstrap repository and write it to a file.
-
-
-Use the GitHub API to retrieve a list of releases
-Write the list of releases to a CSV file.  In the file write:
-Created Date
-Tag name
-URL for the distribution zip file
+This project is a Javascript program that runs through the HTML file with Live Server. The JS code grabs data from a GitHub API and displays the requested data in a table. Below the table is a button to download the CSV, which automatically transfers the table data to a CSV file and downloads it to your device. 
